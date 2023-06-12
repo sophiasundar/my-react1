@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Firstcode from './Components/Firstcode';
+import Message from './Components/Message';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <h1>Hello World</h1>
+      <h2>Welcome to React</h2>
+       <Firstcode/> */}
+       <Message Nicname="Guvi" image="https://tse3.mm.bing.net/th?id=OIP.DwtwUF50gl3Ue_YXPHvi7AHaDL&pid=Api&P=0&h=180"/>
+       <RepeatMessage Nicname="Guvi" image="https://tse3.mm.bing.net/th?id=OIP.DwtwUF50gl3Ue_YXPHvi7AHaDL&pid=Api&P=0&h=180"/>
+    
     </div>
   );
 }
