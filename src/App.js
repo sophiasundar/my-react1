@@ -2,7 +2,7 @@ import './App.css';
 import Firstcode from './Components/Firstcode';
 import Message from './Components/Message';
 
-function App() {
+function App() { 
   return (
     <div className="App">
       {/* <h1>Hello World</h1>
