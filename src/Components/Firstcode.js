@@ -9,7 +9,9 @@ const Firstcode=()=>{
       </div>
     )
 }  
-//npm i react-router-dom@6
+
 
  export default Firstcode; //export
 //import
+
+//npm i react-router-dom@6
