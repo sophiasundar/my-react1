@@ -42,7 +42,7 @@ function App() {
        {/* <RepeatMessage Nicname="Guvi" image="https://tse3.mm.bing.net/th?id=OIP.DwtwUF50gl3Ue_YXPHvi7AHaDL&pid=Api&P=0&h=180"/> */}
 
        {students.map((element)=>{
-        return <RepeatMessage nickName={element.nickname} pic={element.pic}></RepeatMessage>
+        return <RepeatMessage nickName={element.nickName} pic={element.pic}></RepeatMessage>
        })}
 
        {/* <RepeatMessage Nicname="Frank" image="https://3.bp.blogspot.com/-nBbcWGZf2ZQ/UrmRvZHdxZI/AAAAAAAACqg/3-v3lFqGcDo/s1600/minion-image.jpg"></RepeatMessage> */}
