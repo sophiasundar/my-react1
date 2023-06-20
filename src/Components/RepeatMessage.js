@@ -4,11 +4,10 @@ const RepeatMessage=({nickName,pic})=>{ // props/properties is used to passing t
     const nickname='Frank'
     //  console.log(Nicname)  // props is an object it can be verified in console.... 
      return(
-         <div>
-             <h1>Message Component</h1>
-             <h2>Name is {name}</h2>
-             <img src={pic} alt=""></img>
-             <h3>Nick-name is {nickName}</h3>
+         <div className="border">
+             <img src={pic} alt="" className="profile-pic"></img>
+             <h1>Name is {name}</h1>
+             <h2>Nick-name is {nickName}</h2>
          </div>
       )
  }
