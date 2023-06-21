@@ -1,14 +1,18 @@
 .profile-pic{
   width:200px;
   height: 200px;
+ 
 }
 .border{
   border:1px solid navy;
-  width:300px;
+  width:260px;
   margin:5px;
+  margin-top: 140px !important;
 }
  .App{
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;  
   text-align: center;
+  
 }  
+

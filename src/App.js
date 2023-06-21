@@ -2,7 +2,9 @@ import './App.css';
 import { Component } from 'react';
 import Firstcode from './Components/Firstcode';
 import Message from './Components/Message';
+import Counter from './Components/Counter';
 import RepeatMessage from './Components/RepeatMessage';
+
 
 
 function App() { 
@@ -36,7 +38,7 @@ function App() {
 
   return (
     <div className="App">
-       
+       <Counter></Counter>
        {/* <Message></Message> */}
        {/* <Component></Component> */}
        {/* <Message Nicname="Frank" image="https://3.bp.blogspot.com/-nBbcWGZf2ZQ/UrmRvZHdxZI/AAAAAAAACqg/3-v3lFqGcDo/s1600/minion-image.jpg"></Message> */}
